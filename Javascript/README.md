@@ -79,6 +79,7 @@ const count = book.reviews.librarything.reviewsCount ?? "no data";
 count; // 0
 ```
 ## OPTIMAL CHAINING OPERATOR
+### returning the count 0 if not present
 ```
 function getTotalReviewCount(book) {
     const goodreads = book.reviews?.goodreads?.reviewsCount ?? 0;
